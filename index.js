@@ -26,7 +26,7 @@ function soTienQuyDoi() {
     var soTienUSD=document.getElementById("nhapSoTien").value;
     var tienQuyDoi=soTienUSD*23500;
     console.log("🚀 ~ soTienQuyDoi ~ tienQuyDoi:", tienQuyDoi);
-    document.getElementById("soTienVND").innerHTML=` Số tiền sau khi quy đổi = ${tienQuyDoi} `;
+    document.getElementById("soTienVND").innerHTML=` Số tiền sau khi quy đổi = ${tienQuyDoi} VND`;
 }
 
 //Bài tập 4
